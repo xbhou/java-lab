@@ -24,7 +24,7 @@
 ## 阶段 3 — Spring / Phase 3 — Spring
 
 - [x] Bean 生命周期 / Bean lifecycle
-- [ ] AOP
+- [x] AOP
 - [ ] 事务传播机制 / Transaction propagation
 - [ ] Spring Boot 自动配置 / Spring Boot auto-configuration
 
