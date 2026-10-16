@@ -149,6 +149,14 @@ labs/spring/bean-lifecycle
 
 观察 Bean 实例化、依赖注入、Aware 回调、BeanPostProcessor、`@PostConstruct`、`InitializingBean`、自定义 init/destroy 与 ApplicationContext 关闭时的完整生命周期。
 
+#### Spring AOP
+
+```text
+labs/spring/aop
+```
+
+验证 Spring AOP 的 Proxy 模型，对比 JDK Dynamic Proxy 与 class-based proxy，并通过 self-invocation 场景解释为什么内部调用会绕过 Advice。
+
 ### 历史代码
 
 根目录的 `src/` 保留了早期学习实验，例如：
@@ -326,6 +334,14 @@ labs/spring/bean-lifecycle
 ```
 
 Observes bean instantiation, dependency injection, aware callbacks, BeanPostProcessor hooks, `@PostConstruct`, `InitializingBean`, custom init/destroy methods, and ApplicationContext shutdown.
+
+#### Spring AOP
+
+```text
+labs/spring/aop
+```
+
+Demonstrates Spring AOP's proxy model, compares JDK and class-based proxies, and shows why self-invocation bypasses advice.
 
 ### Legacy Topics
 
