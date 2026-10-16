@@ -40,9 +40,24 @@ Spring Core 与 Spring Boot 实验目录，重点把 IoC、生命周期、代理
 - AopUtils proxy detection
 - 与 Transactional 的关系
 
+#### 事务传播 / Transaction Propagation
+
+路径：`transaction-propagation/`
+
+重点：
+
+- REQUIRED
+- REQUIRES_NEW
+- NESTED
+- logical vs physical transaction
+- UnexpectedRollbackException
+- JDBC savepoint
+- Connection identity
+- self-invocation
+- Proxy Boundary 与 Transaction Boundary
+
 后续覆盖：
 
-- 事务传播
 - Spring Boot Auto Configuration
 
 ---
@@ -87,7 +102,22 @@ Focus:
 - proxy detection with AopUtils
 - relationship to transactional proxies
 
+#### Transaction Propagation / 事务传播
+
+Path: `transaction-propagation/`
+
+Focus:
+
+- REQUIRED
+- REQUIRES_NEW
+- NESTED
+- logical vs physical transactions
+- UnexpectedRollbackException
+- JDBC savepoints
+- connection identity
+- self-invocation
+- proxy boundaries vs transaction boundaries
+
 Planned next topics:
 
-- transaction propagation
 - Spring Boot auto-configuration
