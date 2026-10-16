@@ -56,9 +56,22 @@ Spring Core 与 Spring Boot 实验目录，重点把 IoC、生命周期、代理
 - self-invocation
 - Proxy Boundary 与 Transaction Boundary
 
-后续覆盖：
+#### Spring Boot 自动配置 / Spring Boot Auto-configuration
 
-- Spring Boot Auto Configuration
+路径：`boot-auto-configuration/`
+
+重点：
+
+- EnableAutoConfiguration
+- AutoConfigurationImportSelector
+- AutoConfiguration.imports
+- ConditionalOnProperty
+- ConditionalOnMissingBean
+- Auto-configuration back-off
+- ConditionEvaluationReport
+- 用户配置与默认配置的优先关系
+
+Phase 3 基础路线到这里完成。
 
 ---
 
@@ -118,6 +131,19 @@ Focus:
 - self-invocation
 - proxy boundaries vs transaction boundaries
 
-Planned next topics:
+#### Spring Boot Auto-configuration / Spring Boot 自动配置
 
-- Spring Boot auto-configuration
+Path: `boot-auto-configuration/`
+
+Focus:
+
+- EnableAutoConfiguration
+- AutoConfigurationImportSelector
+- AutoConfiguration.imports
+- ConditionalOnProperty
+- ConditionalOnMissingBean
+- auto-configuration back-off
+- ConditionEvaluationReport
+- user configuration vs default configuration
+
+The foundational Phase 3 Spring track is complete.
