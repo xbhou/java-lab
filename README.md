@@ -157,6 +157,14 @@ labs/spring/aop
 
 验证 Spring AOP 的 Proxy 模型，对比 JDK Dynamic Proxy 与 class-based proxy，并通过 self-invocation 场景解释为什么内部调用会绕过 Advice。
 
+#### Spring Transaction Propagation / 事务传播
+
+```text
+labs/spring/transaction-propagation
+```
+
+使用 Spring JDBC + H2 验证 REQUIRED、REQUIRES_NEW、NESTED、UnexpectedRollbackException、JDBC savepoint 和 self-invocation，并通过 Connection identity 观察物理事务边界。
+
 ### 历史代码
 
 根目录的 `src/` 保留了早期学习实验，例如：
@@ -342,6 +350,14 @@ labs/spring/aop
 ```
 
 Demonstrates Spring AOP's proxy model, compares JDK and class-based proxies, and shows why self-invocation bypasses advice.
+
+#### Spring Transaction Propagation
+
+```text
+labs/spring/transaction-propagation
+```
+
+Uses Spring JDBC and H2 to demonstrate REQUIRED, REQUIRES_NEW, NESTED, UnexpectedRollbackException, JDBC savepoints, self-invocation, and physical transaction boundaries.
 
 ### Legacy Topics
 
