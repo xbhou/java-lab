@@ -165,6 +165,14 @@ labs/spring/transaction-propagation
 
 使用 Spring JDBC + H2 验证 REQUIRED、REQUIRES_NEW、NESTED、UnexpectedRollbackException、JDBC savepoint 和 self-invocation，并通过 Connection identity 观察物理事务边界。
 
+#### Spring Boot 自动配置 / Spring Boot Auto-configuration
+
+```text
+labs/spring/boot-auto-configuration
+```
+
+通过自定义 AutoConfiguration、AutoConfiguration.imports、ConditionalOnProperty、ConditionalOnMissingBean 和 ConditionEvaluationReport，观察 Spring Boot 为什么创建或跳过一个默认 Bean。
+
 ### 历史代码
 
 根目录的 `src/` 保留了早期学习实验，例如：
@@ -358,6 +366,14 @@ labs/spring/transaction-propagation
 ```
 
 Uses Spring JDBC and H2 to demonstrate REQUIRED, REQUIRES_NEW, NESTED, UnexpectedRollbackException, JDBC savepoints, self-invocation, and physical transaction boundaries.
+
+#### Spring Boot Auto-configuration
+
+```text
+labs/spring/boot-auto-configuration
+```
+
+Demonstrates custom auto-configuration discovery, conditional matching, back-off behavior, and ConditionEvaluationReport diagnostics.
 
 ### Legacy Topics
 
