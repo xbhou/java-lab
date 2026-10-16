@@ -25,7 +25,7 @@
 
 - [x] Bean 生命周期 / Bean lifecycle
 - [x] AOP
-- [ ] 事务传播机制 / Transaction propagation
+- [x] 事务传播机制 / Transaction propagation
 - [ ] Spring Boot 自动配置 / Spring Boot auto-configuration
 
 ## 阶段 4 — 后端基础设施 / Phase 4 — Backend Infrastructure
