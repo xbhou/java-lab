@@ -25,9 +25,23 @@ Spring Core 与 Spring Boot 实验目录，重点把 IoC、生命周期、代理
 
 这个 Lab 从旧 `studyDemo` 的 ApplicationContext、BeanFactory 和 InitializingBean 实验升级而来，但重新拆分了“被管理的 Bean”和“容器扩展点”的角色。
 
+#### AOP
+
+路径：`aop/`
+
+重点：
+
+- Spring AOP runtime proxy
+- JDK Dynamic Proxy
+- class-based proxy
+- Aspect / Pointcut / Advice / Target / Proxy
+- Around Advice
+- self-invocation
+- AopUtils proxy detection
+- 与 Transactional 的关系
+
 后续覆盖：
 
-- AOP
 - 事务传播
 - Spring Boot Auto Configuration
 
@@ -58,8 +72,22 @@ Focus:
 
 This lab modernizes the legacy studyDemo ApplicationContext, BeanFactory, and InitializingBean experiments while separating managed-bean responsibilities from container extension points.
 
+#### AOP
+
+Path: `aop/`
+
+Focus:
+
+- Spring AOP runtime proxies
+- JDK dynamic proxies
+- class-based proxies
+- aspect / pointcut / advice / target / proxy
+- around advice
+- self-invocation
+- proxy detection with AopUtils
+- relationship to transactional proxies
+
 Planned next topics:
 
-- AOP
 - transaction propagation
 - Spring Boot auto-configuration
