@@ -181,6 +181,14 @@ labs/mysql/index-experiments
 
 基于 MySQL 8.4 LTS 和 20 万行数据，对比无二级索引、单列索引、联合索引、最左前缀、覆盖索引、ICP、Sargable Predicate 和低选择性索引，并使用 EXPLAIN ANALYZE 观察实际执行工作量。
 
+#### Redis 缓存模式 / Redis Cache Patterns
+
+```text
+labs/redis/cache-patterns
+```
+
+通过 Cache-Aside、Negative Cache、热点 Key Single-flight、TTL Jitter、Logical Expiration 和 DB / Cache 一致性场景，观察缓存 miss、击穿、雪崩与 Redis 故障如何放大数据库压力。
+
 ### 历史代码
 
 根目录的 `src/` 保留了早期学习实验，例如：
@@ -390,6 +398,14 @@ labs/mysql/index-experiments
 ```
 
 Uses MySQL 8.4 LTS and a 200,000-row dataset to compare no secondary index, single and composite indexes, leftmost-prefix behavior, covering indexes, ICP, sargable predicates, and cost-based optimizer decisions with EXPLAIN ANALYZE.
+
+#### Redis Cache Patterns
+
+```text
+labs/redis/cache-patterns
+```
+
+Demonstrates cache-aside, negative caching, hot-key single-flight rebuild, TTL jitter, logical expiration, and database/cache consistency while measuring database fallback amplification.
 
 ### Legacy Topics
 
