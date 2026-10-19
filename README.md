@@ -189,6 +189,14 @@ labs/redis/cache-patterns
 
 通过 Cache-Aside、Negative Cache、热点 Key Single-flight、TTL Jitter、Logical Expiration 和 DB / Cache 一致性场景，观察缓存 miss、击穿、雪崩与 Redis 故障如何放大数据库压力。
 
+#### Kafka Consumer Lag 与重试 / Kafka Consumer Lag & Retry
+
+```text
+labs/kafka/consumer-lag-retry
+```
+
+使用 Kafka 4.3.1 原生 Producer / Consumer / Admin API，观察 Log End Offset、Committed Offset、Lag 增长与追平，并通过 Retry Topic、Backoff、Poison Message 和 DLQ 演示吞吐、顺序和可靠性的权衡。
+
 ### 历史代码
 
 根目录的 `src/` 保留了早期学习实验，例如：
@@ -406,6 +414,14 @@ labs/redis/cache-patterns
 ```
 
 Demonstrates cache-aside, negative caching, hot-key single-flight rebuild, TTL jitter, logical expiration, and database/cache consistency while measuring database fallback amplification.
+
+#### Kafka Consumer Lag & Retry
+
+```text
+labs/kafka/consumer-lag-retry
+```
+
+Uses Kafka 4.3.1 native Producer, Consumer, and Admin APIs to observe log-end offsets, committed offsets, lag growth and catch-up, retry topics, backoff, poison messages, DLQs, and ordering trade-offs.
 
 ### Legacy Topics
 

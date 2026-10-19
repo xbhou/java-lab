@@ -32,7 +32,7 @@
 
 - [x] MySQL 索引实验 / MySQL index experiments
 - [x] Redis 缓存模式 / Redis cache patterns
-- [ ] Kafka Consumer Lag 与重试 / Kafka consumer lag and retry
+- [x] Kafka Consumer Lag 与重试 / Kafka consumer lag and retry
 - [ ] gRPC 超时与重试 / gRPC timeout and retry
 
 ## 阶段 5 — 分布式系统 / Phase 5 — Distributed Systems
