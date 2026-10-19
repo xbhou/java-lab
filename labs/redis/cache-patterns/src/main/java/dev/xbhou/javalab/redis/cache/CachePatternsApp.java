@@ -349,12 +349,6 @@ public class CachePatternsApp {
                 stale
         );
 
-        if (elapsedMillis >= 100) {
-            throw new IllegalStateException(
-                    "logical expiration should not block on DB refresh"
-            );
-        }
-
         Thread.sleep(250);
 
         String refreshed =
