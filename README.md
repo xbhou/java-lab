@@ -173,6 +173,14 @@ labs/spring/boot-auto-configuration
 
 通过自定义 AutoConfiguration、AutoConfiguration.imports、ConditionalOnProperty、ConditionalOnMissingBean 和 ConditionEvaluationReport，观察 Spring Boot 为什么创建或跳过一个默认 Bean。
 
+#### MySQL 索引实验 / MySQL Index Experiments
+
+```text
+labs/mysql/index-experiments
+```
+
+基于 MySQL 8.4 LTS 和 20 万行数据，对比无二级索引、单列索引、联合索引、最左前缀、覆盖索引、ICP、Sargable Predicate 和低选择性索引，并使用 EXPLAIN ANALYZE 观察实际执行工作量。
+
 ### 历史代码
 
 根目录的 `src/` 保留了早期学习实验，例如：
@@ -374,6 +382,14 @@ labs/spring/boot-auto-configuration
 ```
 
 Demonstrates custom auto-configuration discovery, conditional matching, back-off behavior, and ConditionEvaluationReport diagnostics.
+
+#### MySQL Index Experiments
+
+```text
+labs/mysql/index-experiments
+```
+
+Uses MySQL 8.4 LTS and a 200,000-row dataset to compare no secondary index, single and composite indexes, leftmost-prefix behavior, covering indexes, ICP, sargable predicates, and cost-based optimizer decisions with EXPLAIN ANALYZE.
 
 ### Legacy Topics
 
