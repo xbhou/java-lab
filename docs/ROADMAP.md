@@ -31,7 +31,7 @@
 ## 阶段 4 — 后端基础设施 / Phase 4 — Backend Infrastructure
 
 - [x] MySQL 索引实验 / MySQL index experiments
-- [ ] Redis 缓存模式 / Redis cache patterns
+- [x] Redis 缓存模式 / Redis cache patterns
 - [ ] Kafka Consumer Lag 与重试 / Kafka consumer lag and retry
 - [ ] gRPC 超时与重试 / gRPC timeout and retry
 
